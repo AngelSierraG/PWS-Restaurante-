@@ -1,0 +1,75 @@
+a[data-type='lightbox']:hover img{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)"
+}
+
+.icon-box .icon-box_cnt:hover .fa{
+    background: none;
+    color: #fff;
+}
+
+.icon-box .icon-box_cnt:hover .fa:after{
+    display: none;
+}
+
+.socials-mini .fa:hover{
+    background: #fff;
+}
+
+.socials-mini .fa{
+    background: #000;
+}
+
+.member .member_info{
+    display: none;
+}
+
+.member:hover .member_info{
+    display: block;
+}
+
+.socials a:before,
+.socials a:after{
+    display: none;
+}
+
+.socials a{
+    padding: 6px;
+}
+
+.socials a:hover{
+    padding: 2px;
+    border: 4px solid #fff;
+}
+
+.product .product_info{
+    display: inline-block;
+    width: 84.59459459459459%;
+    padding-bottom: 84.59459459459459%;
+}
+
+.product .product_prise{
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    font-size: 34px;
+    line-height: 100px;
+}
+
+.product .product_prise span{
+    font-size: 24px;
+    line-height: 86px;
+}
+
+.product .product_cnt{
+    padding-top: 33px;
+}
+
+.product__off2{
+    margin-bottom: 41px;
+}
+
+
+.product__off1{
+    margin-top: 58px;
+}
