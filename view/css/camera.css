@@ -118,8 +118,8 @@
     -webkit-border-radius: 18px;
        -moz-border-radius: 18px;
             border-radius: 18px;
-    background: #fff url(../images/camera-loader.gif) no-repeat center;
-    background: rgba(255, 255, 255, .9) url(../images/camera-loader.gif) no-repeat center;
+    background: #fff url(../../images/camera-loader.gif) no-repeat center;
+    background: rgba(255, 255, 255, .9) url(../../images/camera-loader.gif) no-repeat center;
 }
 .camera_bar
 {

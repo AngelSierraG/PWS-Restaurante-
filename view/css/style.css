@@ -127,13 +127,13 @@ h3 a:hover
 }
 .bg-image1
 {
-    background: url(../images/index_slide01.jpg) no-repeat;
+    background: url(../../images/index_slide01.jpg) no-repeat;
 }
 @media (max-width: 1199px)
 {
     .bg-image1
     {
-        background: url(../images/index_slide01sm.jpg) no-repeat;
+        background: url(../../images/index_slide01sm.jpg) no-repeat;
     }
 }
 /*========================================================
@@ -384,7 +384,7 @@ h3 a:hover
            -moz-border-radius: 0;
                 border-radius: 0;
         outline: none;
-        background: #fff url(../images/select.png) 97% center no-repeat;
+        background: #fff url(../../images/select.png) 97% center no-repeat;
 
         -webkit-appearance: none;
     }
@@ -756,7 +756,7 @@ h3 a:hover
 
     padding: 128px 26px 0;
 
-    background: url(../images/braces.png) no-repeat 50% 5px;
+    background: url(../../images/braces.png) no-repeat 50% 5px;
 }
 .quote_aside
 {
@@ -1303,14 +1303,14 @@ h3 a:hover
 {
     padding: 257px 0 266px;
 
-    background-image: url(../images/index_img01.jpg);
+    background-image: url(../../images/index_img01.jpg);
     background-position: 0 0;
 }
 @media (max-width: 1199px)
 {
     .stellar1
     {
-        background-image: url(../images/index_img01sm.jpg);
+        background-image: url(../../images/index_img01sm.jpg);
         background-position: 0 100%;
     }
 }
@@ -1318,14 +1318,14 @@ h3 a:hover
 {
     padding: 257px 0 301px;
 
-    background-image: url(../images/index_img02.jpg);
+    background-image: url(../../images/index_img02.jpg);
     background-position: 0 0;
 }
 @media (max-width: 1199px)
 {
     .stellar2
     {
-        background-image: url(../images/index_img02sm.jpg);
+        background-image: url(../../images/index_img02sm.jpg);
         background-position: 0 0;
     }
 }
@@ -1333,14 +1333,14 @@ h3 a:hover
 {
     padding: 257px 0 210px;
 
-    background-image: url(../images/index_img03.jpg);
+    background-image: url(../../images/index_img03.jpg);
     background-position: 0 0;
 }
 @media (max-width: 1199px)
 {
     .stellar3
     {
-        background-image: url(../images/index_img03sm.jpg);
+        background-image: url(../../images/index_img03sm.jpg);
         background-position: 0 0;
     }
 }
@@ -1348,14 +1348,14 @@ h3 a:hover
 {
     padding: 257px 0 352px;
 
-    background-image: url(../images/index_img04.jpg);
+    background-image: url(../../images/index_img04.jpg);
     background-position: 0 0;
 }
 @media (max-width: 1199px)
 {
     .stellar4
     {
-        background-image: url(../images/index_img04sm.jpg);
+        background-image: url(../../images/index_img04sm.jpg);
         background-position: 0 0;
     }
 }
@@ -1363,14 +1363,14 @@ h3 a:hover
 {
     padding: 257px 0 263px;
 
-    background-image: url(../images/index-1_img01.jpg);
+    background-image: url(../../images/index-1_img01.jpg);
     background-position: 0 0;
 }
 @media (max-width: 1199px)
 {
     .stellar5
     {
-        background-image: url(../images/index-1_img01sm.jpg);
+        background-image: url(../../images/index-1_img01sm.jpg);
         background-position: 0 0;
     }
 }
@@ -1378,14 +1378,14 @@ h3 a:hover
 {
     padding: 257px 0 261px;
 
-    background-image: url(../images/index-1_img02.jpg);
+    background-image: url(../../images/index-1_img02.jpg);
     background-position: 0 0;
 }
 @media (max-width: 1199px)
 {
     .stellar6
     {
-        background-image: url(../images/index-1_img02sm.jpg);
+        background-image: url(../../images/index-1_img02sm.jpg);
         background-position: 0 0;
     }
 }
@@ -1403,14 +1403,14 @@ h3 a:hover
 {
     padding: 257px 0 262px;
 
-    background-image: url(../images/index-1_img03.jpg);
+    background-image: url(../../images/index-1_img03.jpg);
     background-position: 0 0;
 }
 @media (max-width: 1199px)
 {
     .stellar7
     {
-        background-image: url(../images/index-1_img03sm.jpg);
+        background-image: url(../../images/index-1_img03sm.jpg);
         background-position: 0 0;
     }
 }
@@ -1428,14 +1428,14 @@ h3 a:hover
 {
     padding: 257px 0 262px;
 
-    background-image: url(../images/index-1_img04.jpg);
+    background-image: url(../../images/index-1_img04.jpg);
     background-position: 0 0;
 }
 @media (max-width: 1199px)
 {
     .stellar8
     {
-        background-image: url(../images/index-1_img04sm.jpg);
+        background-image: url(../../images/index-1_img04sm.jpg);
         background-position: 0 0;
     }
 }
@@ -1453,14 +1453,14 @@ h3 a:hover
 {
     padding: 257px 0 262px;
 
-    background-image: url(../images/index-2_img01.jpg);
+    background-image: url(../../images/index-2_img01.jpg);
     background-position: 0 40%;
 }
 @media (max-width: 1199px)
 {
     .stellar9
     {
-        background-image: url(../images/index-2_img01sm.jpg);
+        background-image: url(../../images/index-2_img01sm.jpg);
         background-position: 0 40%;
     }
 }
@@ -1478,14 +1478,14 @@ h3 a:hover
 {
     padding: 257px 0 262px;
 
-    background-image: url(../images/index-3_img07.jpg);
+    background-image: url(../../images/index-3_img07.jpg);
     background-position: 0 40%;
 }
 @media (max-width: 1199px)
 {
     .stellar10
     {
-        background-image: url(../images/index-3_img07sm.jpg);
+        background-image: url(../../images/index-3_img07sm.jpg);
         background-position: 0 40%;
     }
 }
@@ -1503,14 +1503,14 @@ h3 a:hover
 {
     padding: 257px 0 238px;
 
-    background-image: url(../images/index-3_img08.jpg);
+    background-image: url(../../images/index-3_img08.jpg);
     background-position: 0 40%;
 }
 @media (max-width: 1199px)
 {
     .stellar11
     {
-        background-image: url(../images/index-3_img08sm.jpg);
+        background-image: url(../../images/index-3_img08sm.jpg);
         background-position: 0 40%;
     }
 }
@@ -1568,14 +1568,14 @@ h3 a:hover
 {
     padding: 257px 0 262px;
 
-    background-image: url(../images/index-4_img01.jpg);
+    background-image: url(../../images/index-4_img01.jpg);
     background-position: 0 0;
 }
 @media (max-width: 1199px)
 {
     .stellar12
     {
-        background-image: url(../images/index-4_img01sm.jpg);
+        background-image: url(../../images/index-4_img01sm.jpg);
         background-position: 0 0;
     }
 }
@@ -1583,14 +1583,14 @@ h3 a:hover
 {
     padding: 257px 0 269px;
 
-    background-image: url(../images/index-4_img02.jpg);
+    background-image: url(../../images/index-4_img02.jpg);
     background-position: 0 0;
 }
 @media (max-width: 1199px)
 {
     .stellar13
     {
-        background-image: url(../images/index-4_img02sm.jpg);
+        background-image: url(../../images/index-4_img02sm.jpg);
         background-position: 0 0;
     }
 }
@@ -1598,14 +1598,14 @@ h3 a:hover
 {
     padding: 257px 0 269px;
 
-    background-image: url(../images/index-5_img01.jpg);
+    background-image: url(../../images/index-5_img01.jpg);
     background-position: 0 0;
 }
 @media (max-width: 1199px)
 {
     .stellar14
     {
-        background-image: url(../images/index-5_img01sm.jpg);
+        background-image: url(../../images/index-5_img01sm.jpg);
         background-position: 0 0;
     }
 }
@@ -1623,7 +1623,7 @@ h3 a:hover
 {
     padding: 223px 0 219px;
 
-    background-image: url(../images/index_img05.jpg);
+    background-image: url(../../images/index_img05.jpg);
     background-position: 0 0;
 }
 @media (max-width: 1199px)
@@ -1631,7 +1631,7 @@ h3 a:hover
     .stellar-f
     {
         background-color: #000;
-        background-image: url(../images/index_img05sm.jpg);
+        background-image: url(../../images/index_img05sm.jpg);
         background-position: 0 100%;
     }
 }
@@ -1885,7 +1885,7 @@ a[data-type='lightbox']
 
     display: inline-block;
 
-    background: #191919 url('../images/magnify.png') no-repeat center center;
+    background: #191919 url('../../images/magnify.png') no-repeat center center;
 }
 a[data-type='lightbox'] img
 {

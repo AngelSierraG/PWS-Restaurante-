@@ -18,7 +18,7 @@ Description: this is a contacts form to restautant project, Incorporate: Name, P
     <link rel="stylesheet" href="view/css/grid.css">
     <link rel="stylesheet" href="view/css/style.css">
     <link rel="stylesheet" href="view/css/contacts.css"/>
-    <script src="view/view/js/jquery.js"></script>
+    <script src="view/js/jquery.js"></script>
     <script src="view/js/jquery-migrate-1.2.1.js"></script>
     <script src="view/js/modal.js"></script>
     <script src="view/js/TMForm.js"></script>

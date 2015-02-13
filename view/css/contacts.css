@@ -184,7 +184,7 @@ Description: style css to view of frmContacts.php
     height: 100%;
 
     opacity: 0;
-    background: rgba(247, 247, 247, .48) url('../images/form-loader.gif');
+    background: rgba(247, 247, 247, .48) url('../../images/form-loader.gif');
     background-repeat: no-repeat;
     background-position: 50% 50%;
     -webkit-background-size: 5% 5%;

@@ -5,14 +5,14 @@
    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
     <meta name="format-detection" content="telephone=no"/>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="view/cssgrid.css">
-    <link rel="stylesheet" href="view/cssstyle.css">
-    <link rel="stylesheet" href="view/csscamera.css"/>
-    <script src="view/cssjquery.js"></script>
-    <script src="view/cssjquery-migrate-1.2.1.js"></script>
+    <link rel="stylesheet" href="view/css/grid.css">
+    <link rel="stylesheet" href="view/css/style.css">
+    <link rel="stylesheet" href="view/css/camera.css"/>
+    <script src="view/js/jquery.js"></script>
+    <script src="view/js/jquery-migrate-1.2.1.js"></script>
     <!--[if (gt IE 9)|!(IE)]><!-->
-    <script src="view/cssjquery.mobile.customized.min.js"></script>
-    <script src="view/csswow/wow.js"></script>
+    <script src="view/js/jquery.mobile.customized.min.js"></script>
+    <script src="view/js/wow/wow.js"></script>
     <script>
         $(document).ready(function () {
             if ($('html').hasClass('desktop')) {
@@ -21,7 +21,7 @@
         });
     </script>
     <!--<![endif]-->
-    <script src="view/csscamera.js"></script>
+    <script src="view/js/camera.js"></script>
     <!--[if lt IE 9]>
     <div id="ie6-alert" style="width: 100%; text-align:center; background: #232323;">
         <img src="http://beatie6.frontcube.com/images/ie6.jpg" alt="Upgrade IE 6" width="640" height="344" border="0"
@@ -463,7 +463,7 @@
     </div>
 </footer>
 </div>
-<script src="view/cssscript.js"></script>
+<script src="view/js/script.js"></script>
 
 </body>
 </html>
