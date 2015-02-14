@@ -5,16 +5,16 @@ function include(url) {
 
 /* cookie.JS
  ========================================================*/
-include('wiew/js/jquery.cookie.js');
+include('view/js/jquery.cookie.js');
 
 
 /* DEVICE.JS
  ========================================================*/
-include('wiew/js/device.min.js');
+include('view/js/device.min.js');
 
 /* Stick up menu
  ========================================================*/
-include('wiew/js/tmstickup.js');
+include('view/js/tmstickup.js');
 $(window).load(function () {
     if ($('html').hasClass('desktop')) {
         $('#stuck_container').TMStickUp({
@@ -24,18 +24,18 @@ $(window).load(function () {
 
 /* Easing library
  ========================================================*/
-include('wiew/js/jquery.easing.1.3.js');
+include('view/js/jquery.easing.1.3.js');
 
 /* ToTop
  ========================================================*/
-include('wiew/js/jquery.ui.totop.js');
+include('view/js/jquery.ui.totop.js');
 $(function () {
     $().UItoTop({ easingType: 'easeOutQuart' });
 });
 
 /* Stellar.js
  ========================================================*/
-include('wiew/js/stellar/jquery.stellar.js');
+include('view/js/stellar/jquery.stellar.js');
 $(document).ready(function () {
     if ($('html').hasClass('desktop')) {
         $.stellar({
@@ -49,8 +49,8 @@ $(document).ready(function () {
 
 /* DEVICE.JS AND SMOOTH SCROLLIG
  ========================================================*/
-include('wiew/js/jquery.mousewheel.min.js');
-include('wiew/js/jquery.simplr.smoothscroll.min.js');
+include('view/js/jquery.mousewheel.min.js');
+include('view/js/jquery.simplr.smoothscroll.min.js');
 $(function () {
     if ($('html').hasClass('desktop')) {
         $.srSmoothscroll({
@@ -70,12 +70,12 @@ $(document).ready(function () {
 
 /* Superfish menu
  ========================================================*/
-include('wiew/js/superfish.js');
-include('wiew/js/jquery.mobilemenu.js');
+include('view/js/superfish.js');
+include('view/js/jquery.mobilemenu.js');
 
 /* Unveil
  ========================================================*/
-include('wiew/js/jquery.unveil.js');
+include('view/js/jquery.unveil.js');
 $(document).ready(function () {
     $('img').unveil(0, function () {
         $(this).load(function () {
