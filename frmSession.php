@@ -31,7 +31,7 @@
             <header>
 	
     <div class="profileLogo"> 
-    <p class="logoPlaceholder"><a href="index.php"><img src="001_TLLogo.jpg" height="50%"></a></div>
+    <p class="logoPlaceholder"></div>
 </header>
             <section>				
                 <div id="container_demo" >
@@ -51,7 +51,7 @@
                                     <input id="password" name="password" required="required" type="password" placeholder="Ej. X8df!90EO" /> 
                                 </p>
                                
-                              	<p id="divAjaxLogin">Tres Lagunas Login</p>
+                              	<p id="divAjaxLogin">PWS-Restaurante Login</p>
                                 <p class="login button"> 
                                     <input type="submit" value="Iniciar sesion"  /> 
 								</p>

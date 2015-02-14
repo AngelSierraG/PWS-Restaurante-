@@ -12,6 +12,7 @@
     <script src="view/js/easyResponsiveTabs.js"></script>
     <!--[if (gt IE 9)|!(IE)]><!-->
     <script src="view/js/wow/wow.js"></script>
+    <script src="view/js/new.js"></script>
     <script>
         $(document).ready(function () {
             if ($('html').hasClass('desktop')) {
@@ -117,21 +118,39 @@
             <div class="row">
                 <div class="grid_12">
                     <h2 class="hdng__off2 wow fadeInLeft">
-                        ¿Quiénes
-                        <span>somos?</span>
+                        
+                      <h3>Los consumidores chinos desconfían del arroz que produce su país</h3>
                     </h2>
 
                     <div class="box2 ta__c wow fadeInRight" data-wow-delay=".2s">
-                        <iframe class="video" src="//www.youtube.com/embed/2kodXWejuy0"
-                                allowfullscreen></iframe>
-                        <p>
-                                Establecidos en Ocosingo Chiapas desde el 2013, ofrecemos a nuestros clientes una extensa variedad de platillos. <br/>
-                                En el Sazón de Lupita podrás degustar exquisitos platillos de talla internacional.  <br/>
-                                Cocinamos con ingredientes frescos y de la región, logrando un sabor exquisito. <br/> Nuestra recomendación es la especialidad del Chef, los spaguettis <br/> en cualquiera de sus presentaciones. <br/><br/>
-                                Ofrecemos servicio a domicilio y banquetes<br/>
-                                
-                            
+                         <img src="images/arrozChino.jpg" >
+            <p>
+                              China es el mayor consumidor y primer productor de arroz del mundo, por lo que no tendría mucho sentido que aumentara la importación de arroz procedente de otros países, sin embargo, se ha constatado que aunque la importación es pequeña, en el año 2014 se incrementó hasta el triple la compra de arroz procedente de Japón (160 toneladas) en comparación con el año 2013. La explicación es que crece el temor de los ciudadanos chinos por el arroz que se produce en su país, un arroz que contiene metales pesados y otras toxinas que son perjudiciales para el organismo. </br> </br>
+
+Crece la importación de arroz en China, esto refleja una disminución progresiva de la confianza de los consumidores chinos en la seguridad de su producción agrícola, algo lógico teniendo en cuenta que la agricultura de ese país abusa del uso de productos fitosanitarios, antibióticos y otros productos. Podemos encontrar muchos antecedentes sobre la poca seguridad que ofrece el arroz chino, un ejemplo es esta noticia en la que se explicaba que el arroz que importó Estados Unidos desde China en el año 2013 estaba contaminado por niveles elevados de plomo, el contenido era entre 30 y 60 veces superior a la ingesta tolerable recomendada por la FDA (Agencia de Medicamentos y Alimentación de Estados Unidos). </br> </br>
+
+Los consumidores chinos desconfían del arroz que produce su país pero el problema no es sólo el arroz, otros alimentos que se producen en el país también están experimentando un crecimiento en las importaciones ya que los ciudadanos chinos los demandan por no confiar en lo que produce su país, la leche de fórmula, la leche entera, etc. Volviendo al arroz, un estudio desarrollado el año pasado por el Ministerio de Protección del Medio Ambiente estimaba que el 16'1% de la tierra de cultivo de China estaba contaminada, incluso en algunas partes del país los productores de arroz no querían consumir el alimento que estaban cultivando (por algo sería).
+</br> </br>
+
+Merece la pena retomar la lectura de este post, a través de su lectura podemos saber que la Food Sentry, organización formada por un grupo de especialistas en análisis alimentarios preocupados por la seguridad de los alimentos, daba a conocer en el año 2013 un estudio en el que se concluía que, en general, los alimentos chinos contenían demasiados pesticidas, siendo uno de los países del mundo que más violaciones de seguridad alimentaria comete. Se destacaba que los pesticidas en los alimentos era uno de los problemas más graves, se podían encontrar hasta 32 tipos diferentes especialmente en los productos agrícolas como frutas, hortalizas o verduras y especias. No es extraño que los consumidores occidentales teman el Made in China en los alimentos.
+</br> </br>
+Algo que merece la pena destacar, a los consumidores chinos no les importa pagar un precio más elevado por el arroz importado desde Japón, para hacernos una idea, un kilo de arroz chino se comercializa a 7'5 yuanes por kilo (1'15 euros), y un kilo de arroz japonés tiene un coste de unos 74 yuanes (unos 10'67 euros), es decir, multiplica casi por 10 el precio, y lo mismo ocurre con otros productos que produce el país pero que los consumidores prefieren adquirir de otros países. Algunos consumidores aseguran que merece la pena pagar más dinero por un arroz que además de seguro, tiene calidad.
+</br> </br>
+El marketing influye además en el crecimiento de las importaciones, en las etiquetas de los paquetes de arroz japonés se apunta que el arroz se ha producido utilizando agua procedente de fuentes puras y el producto ha sido sometido a un estricto control de calidad, esto refuerza la confianza de los chinos. No son muchos los chinos que se aventurarían a consumir arroz del condado de Changxing situado al norte de la provincia de Zhejiang, en este lugar se producen baterías de coche, una actividad altamente contaminante, pero también se cultiva arroz. Por supuesto, se asegura que el arroz ha superado las pruebas en relación al contenido en metales pesados, pesticidas, etc., pero quién se lo cree teniendo en cuenta los antecedentes que tiene el país. China lleva años asegurando que trabaja para mejorar la seguridad alimentaria de los alimentos que produce, pero cada año aparecen alertas alimentarias relacionadas con sus productos.
+</br> </br>
+Según leemos aquí, los chinos comen alrededor de 120 millones de toneladas anuales de arroz, China importó más de 2,2 millones de toneladas en los primeros 11 meses del año 2014, incluyendo 1,2 millones de toneladas procedentes de Vietnam y 626.000 toneladas procedentes de Tailandia, si las importaciones siguen creciendo no será extraño que el Gobierno chino tome medidas, ya que esta situación va en contra de sus intereses, no por el volumen de exportación, sino por la imagen que se está dando al mundo desde el propio país sobre los alimentos que produce.
+</br>       </br>                      
                         </p>
+                        
+                        <p><div class="fb-like" data-href="https://facebook.com/chiapasappventure" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+</p>
+
+<p>&nbsp;</p>
+
+<p><a href="http://instagram.com/chiapasappventure?ref=badge" class="ig-b- ig-b-v-24"><img src="//badges.instagram.com/static/images/ig-badge-view-24.png" alt="Instagram" /></a></p>
+                        
+<p><div class="fb-comments" data-href="http://facebook.com/chiapasappventure" data-numposts="5" data-colorscheme="light"></div></p>                    
+                    
                     </div>
 
                 </div>

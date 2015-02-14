@@ -144,10 +144,10 @@
 		</article><!-- end of stats article -->
 		
 		<article class="module width_3_quarter">
-		<header><h3 class="tabs_involved">Content Manager</h3>
+		<header><h3 class="tabs_involved">Listado Noticias</h3>
 		<ul class="tabs">
-   			<li><a href="#tab1">Posts</a></li>
-    		<li><a href="#tab2">Comments</a></li>
+   			<li><a href="#tab1">1</a></li>
+    		<li><a href="#tab2">2</a></li>
 		</ul>
 		</header>
 
@@ -155,50 +155,52 @@
 			<div id="tab1" class="tab_content">
 				<table class="tablesorter" cellspacing="0"> 
 			<thead> 
-				<tr> 
-   					<th></th> 
-    				<th>Comment</th> 
-    				<th>Posted by</th> 
-    				<th>Posted On</th> 
-    				<th>Actions</th> 
+			<tr> 
+   					<th>id</th> 
+    				<th>Titulo</th> 
+    				<th>Fecha</th> 
+    				<th>Lecturas</th> 
+    				<th>Acción</th> 
 				</tr> 
 			</thead> 
 			<tbody> 
 				<tr> 
-   					<td><input type="checkbox"></td> 
-    				<td>Lorem Ipsum Dolor Sit Amet</td> 
-    				<td>Mark Corrigan</td> 
-    				<td>5th April 2011</td> 
+   					<td>1</td> 
+    				<td>MEJORES CUALIDADES ORGANOLÉPTICAS SI SE COCINAN A GRAN ALTITUD</td> 
+    				<td>25/09/2014</td> 
+    				<td>102</td> 
     				<td><input type="image" src="images/icn_edit.png" title="Edit"><input type="image" src="images/icn_trash.png" title="Trash"></td> 
 				</tr> 
-				<tr> 
-   					<td><input type="checkbox"></td> 
-    				<td>Ipsum Lorem Dolor Sit Amet</td> 
-    				<td>Jeremy Usbourne</td> 
-    				<td>6th April 2011</td> 
-   				 	<td><input type="image" src="images/icn_edit.png" title="Edit"><input type="image" src="images/icn_trash.png" title="Trash"></td> 
+<tr> 
+   					<td>2</td> 
+    				<td>ENCUESTA DE SALUD Y BIENESTAR GLOBAL</td> 
+    				<td>27/09/2014</td> 
+    				<td>106</td> 
+    				<td><input type="image" src="images/icn_edit.png" title="Edit"><input type="image" src="images/icn_trash.png" title="Trash"></td> 
 				</tr>
+                
 				<tr> 
-   					<td><input type="checkbox"></td> 
-    				<td>Sit Amet Dolor Ipsum</td> 
-    				<td>Super Hans</td> 
-    				<td>10th April 2011</td> 
+   					<td>3</td> 
+    				<td>LOS CONSUMIDORES CHINOS DESCONFÍAN DEL ARROZ QUE PRODUCE SU PAÍS</td> 
+    				<td>27/01/2015</td> 
+    				<td>104</td> 
     				<td><input type="image" src="images/icn_edit.png" title="Edit"><input type="image" src="images/icn_trash.png" title="Trash"></td> 
 				</tr> 
-				<tr> 
-   					<td><input type="checkbox"></td> 
-    				<td>Dolor Lorem Amet</td> 
-    				<td>Alan Johnson</td> 
-    				<td>16th April 2011</td> 
-   				 	<td><input type="image" src="images/icn_edit.png" title="Edit"><input type="image" src="images/icn_trash.png" title="Trash"></td> 
+			
+            	<tr> 
+   					<td>4</td> 
+    				<td>MEJORES CUALIDADES ORGANOLÉPTICAS SI SE COCINAN A GRAN ALTITUD</td> 
+    				<td>25/09/2014</td> 
+    				<td>102</td> 
+    				<td><input type="image" src="images/icn_edit.png" title="Edit"><input type="image" src="images/icn_trash.png" title="Trash"></td> 
 				</tr> 
-				<tr> 
-   					<td><input type="checkbox"></td> 
-    				<td>Dolor Lorem Amet</td> 
-    				<td>Dobby</td> 
-    				<td>16th April 2011</td> 
-   				 	<td><input type="image" src="images/icn_edit.png" title="Edit"><input type="image" src="images/icn_trash.png" title="Trash"></td> 
-				</tr> 
+<tr> 
+   					<td>5</td> 
+    				<td>ENCUESTA DE SALUD Y BIENESTAR GLOBAL</td> 
+    				<td>27/09/2014</td> 
+    				<td>106</td> 
+    				<td><input type="image" src="images/icn_edit.png" title="Edit"><input type="image" src="images/icn_trash.png" title="Trash"></td> 
+				</tr>
 			</tbody> 
 			</table>
 			</div><!-- end of #tab1 -->
@@ -207,49 +209,55 @@
 			<table class="tablesorter" cellspacing="0"> 
 			<thead> 
 				<tr> 
-   					<th></th> 
-    				<th>Comment</th> 
-    				<th>Posted by</th> 
-    				<th>Posted On</th> 
-    				<th>Actions</th> 
+   					<th>id</th> 
+    				<th>Titulo</th> 
+    				<th>Fecha</th> 
+    				<th>Lecturas</th> 
+    				<th>Acción</th> 
 				</tr> 
 			</thead> 
 			<tbody> 
 				<tr> 
-   					<td><input type="checkbox"></td> 
-    				<td>Lorem Ipsum Dolor Sit Amet</td> 
-    				<td>Mark Corrigan</td> 
-    				<td>5th April 2011</td> 
+   					<td>6</td> 
+    				<td>MEJORES CUALIDADES ORGANOLÉPTICAS SI SE COCINAN A GRAN ALTITUD</td> 
+    				<td>25/09/2014</td> 
+    				<td>102</td> 
     				<td><input type="image" src="images/icn_edit.png" title="Edit"><input type="image" src="images/icn_trash.png" title="Trash"></td> 
 				</tr> 
-				<tr> 
-   					<td><input type="checkbox"></td> 
-    				<td>Ipsum Lorem Dolor Sit Amet</td> 
-    				<td>Jeremy Usbourne</td> 
-    				<td>6th April 2011</td> 
-   				 	<td><input type="image" src="images/icn_edit.png" title="Edit"><input type="image" src="images/icn_trash.png" title="Trash"></td> 
+<tr> 
+   					<td>7</td> 
+    				<td>ENCUESTA DE SALUD Y BIENESTAR GLOBAL</td> 
+    				<td>27/09/2014</td> 
+    				<td>106</td> 
+    				<td><input type="image" src="images/icn_edit.png" title="Edit"><input type="image" src="images/icn_trash.png" title="Trash"></td> 
 				</tr>
+                
 				<tr> 
-   					<td><input type="checkbox"></td> 
-    				<td>Sit Amet Dolor Ipsum</td> 
-    				<td>Super Hans</td> 
-    				<td>10th April 2011</td> 
+   					<td>8</td> 
+    				<td>LOS CONSUMIDORES CHINOS DESCONFÍAN DEL ARROZ QUE PRODUCE SU PAÍS</td> 
+    				<td>27/01/2015</td> 
+    				<td>104</td> 
     				<td><input type="image" src="images/icn_edit.png" title="Edit"><input type="image" src="images/icn_trash.png" title="Trash"></td> 
 				</tr> 
-				<tr> 
-   					<td><input type="checkbox"></td> 
-    				<td>Dolor Lorem Amet</td> 
-    				<td>Alan Johnson</td> 
-    				<td>16th April 2011</td> 
-   				 	<td><input type="image" src="images/icn_edit.png" title="Edit"><input type="image" src="images/icn_trash.png" title="Trash"></td> 
+			
+            	<tr> 
+   					<td>9</td> 
+    				<td>MEJORES CUALIDADES ORGANOLÉPTICAS SI SE COCINAN A GRAN ALTITUD</td> 
+    				<td>25/09/2014</td> 
+    				<td>102</td> 
+    				<td><input type="image" src="images/icn_edit.png" title="Edit"><input type="image" src="images/icn_trash.png" title="Trash"></td> 
 				</tr> 
-				<tr> 
-   					<td><input type="checkbox"></td> 
-    				<td>Dolor Lorem Amet</td> 
-    				<td>Dobby</td> 
-    				<td>16th April 2011</td> 
-   				 	<td><input type="image" src="images/icn_edit.png" title="Edit"><input type="image" src="images/icn_trash.png" title="Trash"></td> 
-				</tr> 
+<tr> 
+   					<td>10</td> 
+    				<td>ENCUESTA DE SALUD Y BIENESTAR GLOBAL</td> 
+    				<td>27/09/2014</td> 
+    				<td>106</td> 
+    				<td><input type="image" src="images/icn_edit.png" title="Edit"><input type="image" src="images/icn_trash.png" title="Trash"></td> 
+				</tr>
+                
+		
+            	
+           
 			</tbody> 
 			</table>
 
