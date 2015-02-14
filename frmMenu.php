@@ -5,10 +5,11 @@
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no"/>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery-migrate-1.2.1.js"></script>
+    <link rel="stylesheet" href="view/css/grid.css">
+    <link rel="stylesheet" href="view/css/style.css">
+    <link rel="stylesheet" href="view/css/camera.css"/>
+    <script src="view/js/jquery.js"></script>
+    <script src="view/js/jquery-migrate-1.2.1.js"></script>
     <!--[if (gt IE 9)|!(IE)]><!-->
     <script src="js/wow/wow.js"></script>
     <script>
@@ -91,7 +92,7 @@
                         <a data-hover="Menu" href="index-2.html">Menú</a>
                     </li>
                     <li>
-                        <a data-hover="Gallery" href="index-3.html">Galería</a>
+                        <a data-hover="Gallery" href="frmGallery.php">Galería</a>
                     </li>
                     <li>
                         <a data-hover="Contacts" href="index-4.html">Contacto</a>

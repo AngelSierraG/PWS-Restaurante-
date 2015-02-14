@@ -89,10 +89,10 @@
                     </ul>
                 </li>
                 <li>
-                    <a data-hover="Menu" href="index-2.html">Menú</a>
+                    <a data-hover="Menu" href="frmMenu.php">Menú</a>
                 </li>
                 <li>
-                    <a data-hover="Gallery" href="index-3.html">Galería</a>
+                    <a data-hover="Gallery" href="frmGallery.php">Galería</a>
                 </li>
                 <li>
                     <a data-hover="Contacts" href="index-4.html">Contacto</a>
