@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8"/>
-	<title>Admin PWS-</title>
+	<title>Admin PWS-Restaurante</title>
 	
 	<link rel="stylesheet" href="../view/css/layout.css" type="text/css" media="screen" />
 	<!--[if lt IE 9]>
@@ -126,42 +126,36 @@
 		<div class="clear"></div>
 		
 		<article class="module width_full">
-			<header><h3>Enviar Boletín</h3></header>
+			<header><h3>Agregar Nuevo Menu</h3></header>
 				<div class="module_content">
 						<fieldset>
-							<label>Asunto</label>
+							<label>Nombre del Menu</label>
 							<input type="text">
 						</fieldset>
-                        
-                        	<fieldset>
-							<label>Link</label>
+						<fieldset>
+							<label>Fecha Inicio</label>
+							<input type="text">
+							<label>Fecha Termino</label>
 							<input type="text">
 						</fieldset>
-                        
-                        <fieldset>
-							<label>Fotografía</label>
-							<input name="" type="file">
-						</fieldset>
-                        
-						
-					
+                       
 					<div class="clear"></div>
 				</div>
 			<footer>
 				<div class="submit_link">
 					
-					<input type="submit" value="Enviar" class="alt_btn">
+					<input type="submit" value="Publicar" class="alt_btn">
 					<input type="submit" value="Reset">
 				</div>
 			</footer>
 		</article><!-- end of post new article -->
 		
-		<h4 class="alert_warning">A Warning Alert</h4>
+		<!---h4 class="alert_warning">A Warning Alert</h4>
 		
 		<h4 class="alert_error">An Error Message</h4>
 		
 		<h4 class="alert_success">A Success Message</h4>
-		
+		---->
 
 		<div class="spacer"></div>
 	</section>

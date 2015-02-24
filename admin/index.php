@@ -77,7 +77,7 @@
 		<h3>Menú</h3>
 		<ul class="toggle">
 			<li class="icn_categories"><a href="#">Listar</a></li>
-            <li class="icn_new_article"><a href="#">Agregar</a></li>
+           <li class="icn_new_article"><a href="frmNewMenu.php">Agregar</a></li>
 			<li class="icn_edit_article"><a href="#">Editar</a></li>
 			
 		</ul>
