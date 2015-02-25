@@ -5,7 +5,10 @@
 	<meta charset="utf-8"/>
 	<title>Admin PWS-Restaurante</title>
 	
+	
 	<link rel="stylesheet" href="../view/css/layout.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="../view/css/calendarview.css">
+
 	<!--[if lt IE 9]>
 	<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" />
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -45,6 +48,9 @@
     $(function(){
         $('.column').equalHeight();
     });
+
+
+
 </script>
 
 </head>
@@ -134,18 +140,39 @@
 						</fieldset>
 						<fieldset>
 							<label>Fecha Inicio</label>
-							<input type="text">
-							<label>Fecha Termino</label>
-							<input type="text">
-						</fieldset>
+									<div id="embeddedExample" style="">
+          							<div id="CalendarioInicio" style="margin-left: auto; margin-right: auto">
+          							</div>
+          							<br />
+         							 <div id="FechaInicio" class="dateField">
+           								 Select Date
+          								</div>
+          								<br />
+        								</div>
+          							</fieldset>
+          							<fieldset>
+							<label>Termino</label>
+									<div id="embeddedExample" style="">
+          							<div id="CalendarioFin" style="margin-left: auto; margin-right: auto">
+          							</div>
+          							<br />
+         							 <div id="FechaFin" class="dateField">
+           								 Select Date
+          								</div>
+          								<br />
+        								</div>
+          							</fieldset>
+
+
+
                        
 					<div class="clear"></div>
 				</div>
 			<footer>
 				<div class="submit_link">
 					
-					<input type="submit" value="Publicar" class="alt_btn">
-					<input type="submit" value="Reset">
+					<input type="submit" value="Agregar Nuevo Menu" class="alt_btn">
+					<input type="submit" value="Limpiar">
 				</div>
 			</footer>
 		</article><!-- end of post new article -->
@@ -160,7 +187,10 @@
 		<div class="spacer"></div>
 	</section>
 
-
+	<script src="../view/js/prototype.js"></script>
+    <script src="../view/js/calendarview.js"></script>
+    <script src="../view/js/Functions.js"></script>
 </body>
+ 	
 
 </html>
