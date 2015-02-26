@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
 	<meta charset="utf-8"/>
 	<title>Admin PWS-Restaurante</title>
@@ -140,24 +139,24 @@
 						</fieldset>
 						<fieldset>
 							<label>Fecha Inicio</label>
-									<div id="embeddedExample" style="">
+									<div id="divfechaInicio" >
           							<div id="CalendarioInicio" style="margin-left: auto; margin-right: auto">
           							</div>
           							<br />
          							 <div id="FechaInicio" class="dateField">
-           								 Select Date
+           								 Fecha
           								</div>
           								<br />
         								</div>
           							</fieldset>
           							<fieldset>
 							<label>Termino</label>
-									<div id="embeddedExample" style="">
+									<div id="divfechaFin">
           							<div id="CalendarioFin" style="margin-left: auto; margin-right: auto">
           							</div>
           							<br />
          							 <div id="FechaFin" class="dateField">
-           								 Select Date
+           								 Fecha
           								</div>
           								<br />
         								</div>

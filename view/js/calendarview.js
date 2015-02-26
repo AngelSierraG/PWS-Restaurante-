@@ -26,8 +26,8 @@ var Calendar = Class.create()
 Calendar.VERSION = '1.2'
 
 Calendar.DAY_NAMES = new Array(
-  'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday',
-  'Sunday'
+  'Domingo ', 'Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado',
+  'Domingo'
 )
 
 Calendar.SHORT_DAY_NAMES = new Array(
@@ -35,8 +35,8 @@ Calendar.SHORT_DAY_NAMES = new Array(
 )
 
 Calendar.MONTH_NAMES = new Array(
-  'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August',
-  'September', 'October', 'November', 'December'
+  'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto',
+  'Septiembre', 'Octubre', 'Noviembre', 'Deciembre'
 )
 
 Calendar.SHORT_MONTH_NAMES = new Array(
@@ -361,7 +361,7 @@ Calendar.prototype = {
 
             // Today
             if (date.getFullYear() == thisYear && date.getMonth() == thisMonth && day == thisDay)
-              cell.addClassName('today')
+              cell.addClassName('Hoy')
 
             // Weekend
             if ([0, 6].indexOf(dayOfWeek) != -1)

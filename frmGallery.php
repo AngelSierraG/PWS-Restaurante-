@@ -66,10 +66,10 @@
                 <nav class="nav flt__r flt__n-sm">
                     <ul class="sf-menu">
                         <li>
-                            <a data-hover="Home" href="index.html">Inicio</a>
+                            <a data-hover="Home" href="frmIndex.php">Inicio</a>
                         </li>
                         <li>
-                            <a data-hover="About" href="index-1.html">Nosotros</a>
+                            <a data-hover="About" href="frmAbout.php">Nosotros</a>
                             <ul>
                                 <li>
                                     <a href="#">Historia</a>
@@ -88,13 +88,16 @@
                             </ul>
                         </li>
                         <li>
-                            <a data-hover="Menu" href="index-2.html">Menú</a>
+                            <a data-hover="Menu" href="frmMenu.php">Menú</a>
                         </li>
                         <li class="current">
-                            <a data-hover="Gallery" href="index-3.html">Galería</a>
+                            <a data-hover="Gallery" href="frmGallery.php">Galería</a>
                         </li>
                         <li>
-                            <a data-hover="Contacts" href="index-4.html">Contacto</a>
+                            <a data-hover="Contacts" href="frmContacts.php">Contacto</a>
+                        </li>
+                        <li>
+                            <a data-hover="Contacts" href="frmRegister.php">Registro</a>
                         </li>
                     </ul>
                 </nav>
