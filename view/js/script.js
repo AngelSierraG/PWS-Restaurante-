@@ -5,16 +5,16 @@ function include(url) {
 
 /* cookie.JS
  ========================================================*/
-include('view/js/jquery.cookie.js');
+include('jquery.cookie.js');
 
 
 /* DEVICE.JS
  ========================================================*/
-include('view/js/device.min.js');
+include('device.min.js');
 
 /* Stick up menu
  ========================================================*/
-include('view/js/tmstickup.js');
+include('tmstickup.js');
 $(window).load(function () {
     if ($('html').hasClass('desktop')) {
         $('#stuck_container').TMStickUp({
@@ -24,18 +24,18 @@ $(window).load(function () {
 
 /* Easing library
  ========================================================*/
-include('view/js/jquery.easing.1.3.js');
+include('jquery.easing.1.3.js');
 
 /* ToTop
  ========================================================*/
-include('view/js/jquery.ui.totop.js');
+include('jquery.ui.totop.js');
 $(function () {
     $().UItoTop({ easingType: 'easeOutQuart' });
 });
 
 /* Stellar.js
  ========================================================*/
-include('view/js/stellar/jquery.stellar.js');
+include('stellar/jquery.stellar.js');
 $(document).ready(function () {
     if ($('html').hasClass('desktop')) {
         $.stellar({
@@ -49,8 +49,8 @@ $(document).ready(function () {
 
 /* DEVICE.JS AND SMOOTH SCROLLIG
  ========================================================*/
-include('view/js/jquery.mousewheel.min.js');
-include('view/js/jquery.simplr.smoothscroll.min.js');
+include('jquery.mousewheel.min.js');
+include('jquery.simplr.smoothscroll.min.js');
 $(function () {
     if ($('html').hasClass('desktop')) {
         $.srSmoothscroll({
@@ -70,12 +70,12 @@ $(document).ready(function () {
 
 /* Superfish menu
  ========================================================*/
-include('view/js/superfish.js');
-include('view/js/jquery.mobilemenu.js');
+include('superfish.js');
+include('jquery.mobilemenu.js');
 
 /* Unveil
  ========================================================*/
-include('view/js/jquery.unveil.js');
+include('jquery.unveil.js');
 $(document).ready(function () {
     $('img').unveil(0, function () {
         $(this).load(function () {

@@ -14,3 +14,9 @@
   js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
+
+        $(document).ready(function () {
+            if ($('html').hasClass('desktop')) {
+                new WOW().init();
+            }
+        });
