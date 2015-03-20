@@ -1,10 +1,5 @@
 <?php
-$vxajax_core = dirname(dirname(__FILE__)) . "/tools/xajax_0.5_standard/xajax_core";
-require_once($vxajax_core . "/xajax.inc.php");
 
-$vxajax = new xajax();
-$vxajax->configure("javascript URI", "tools/xajax_0.5_standard");
-$vxajax->setCharEncoding('UTF-8');
 
 require_once (dirname(dirname(__FILE__)) . "/model/fisic-layer/clspFLUser.php");
 require_once (dirname(dirname(__FILE__)) . "/model/business-layer/clspBLUser.php");
@@ -12,12 +7,11 @@ require_once (dirname(dirname(__FILE__)) . "/model/business-layer/clspBLUser.php
 
 function login($vloginForm)
  {
-	$vresponse= new xajaxResponse();
 	
 	try{
 		$vflUser= new clspFLUser();
-		$vflUser->idUser=trim($vloginForm["txtuser"]);
-		switch(clspBLUser::verifyPasswordToDataBase($vflUser, $vloginForm["txtpassword"])){
+		$vflUser->idUser=trim($vloginForm["txtEmail"]);
+		switch(clspBLUser::verifyPasswordToDataBase($vflUser, $vloginForm["txtPassword"])){
 			case -1: $vresponse->alert("Imposible logearse en el sistema. " . chr(13) .
 									   "Su acceso se encuentra inactivo, póngase en contacto con el administrador del sistema");
 					 break;
@@ -77,7 +71,5 @@ function recoveryPassword($vidUser)
 	return $vresponse;
  }
 
-$vxajax->register(XAJAX_FUNCTION,"login");
-$vxajax->register(XAJAX_FUNCTION,"recoveryPassword");
-$vxajax->processRequest();
+
 ?>

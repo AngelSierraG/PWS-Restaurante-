@@ -54,12 +54,11 @@ DEFAULT CHARACTER SET = latin1;
 CREATE  TABLE IF NOT EXISTS `PWSR_BD`.`c_images` (
   `idimage` INT(12) NOT NULL ,
   `fldimageName` VARCHAR(25) NOT NULL ,
-  `idgallery` INT(12) NULL ,
-  PRIMARY KEY (`idimage`) ,
-  INDEX (`idgallery` ASC) ,
-  INDEX `c_images_fki01` () ,
-  CONSTRAINT ``
-    FOREIGN KEY (`idgallery` )
+  `idc_gallery` INT(12) NOT NULL ,
+  PRIMARY KEY (`idimage`, `idc_gallery`) ,
+  INDEX `idc_gallery` (`idc_gallery` ASC) ,
+  CONSTRAINT `idc_gallery`
+    FOREIGN KEY (`idc_gallery` )
     REFERENCES `PWSR_BD`.`c_gallery` (`idgallery` )
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
@@ -115,8 +114,8 @@ CREATE  TABLE IF NOT EXISTS `PWSR_BD`.`c_users` (
   `fldpassword` VARCHAR(45) NULL ,
   `id_userType` INT NOT NULL ,
   PRIMARY KEY (`idc_users`, `id_userType`) ,
-  INDEX `fk_c_users_c_userType1` (`id_userType` ASC) ,
-  CONSTRAINT `fk_c_users_c_userType1`
+  INDEX `idc_userType` (`id_userType` ASC) ,
+  CONSTRAINT `idc_userType`
     FOREIGN KEY (`id_userType` )
     REFERENCES `PWSR_BD`.`c_userType` (`idc_userType` )
     ON DELETE NO ACTION
@@ -134,8 +133,8 @@ CREATE  TABLE IF NOT EXISTS `PWSR_BD`.`c_clients` (
   `flduserType` TINYINT(1) NOT NULL ,
   `c_users_idc_users` INT NOT NULL ,
   PRIMARY KEY (`id_email`, `c_users_idc_users`) ,
-  INDEX `fk_c_clients_c_users1` (`c_users_idc_users` ASC) ,
-  CONSTRAINT `fk_c_clients_c_users1`
+  INDEX `idc_users` (`c_users_idc_users` ASC) ,
+  CONSTRAINT `idc_users`
     FOREIGN KEY (`c_users_idc_users` )
     REFERENCES `PWSR_BD`.`c_users` (`idc_users` )
     ON DELETE NO ACTION
@@ -154,11 +153,11 @@ CREATE  TABLE IF NOT EXISTS `PWSR_BD`.`p_reservation` (
   `fldcoment` LONGTEXT NOT NULL ,
   `flddate` DATE NOT NULL ,
   `fldtime` VARCHAR(20) NOT NULL ,
-  `id_users` INT(12) NOT NULL ,
+  `id_users` VARCHAR(50) NOT NULL ,
   `fldstatus` TINYINT(1)  NULL ,
   PRIMARY KEY (`idreservation`, `id_users`) ,
-  INDEX `p_reservation_fk01` (`id_users` ASC) ,
-  CONSTRAINT `p_reservation_fk01`
+  INDEX `id_email` (`id_users` ASC) ,
+  CONSTRAINT `id_email`
     FOREIGN KEY (`id_users` )
     REFERENCES `PWSR_BD`.`c_clients` (`id_email` )
     ON DELETE NO ACTION

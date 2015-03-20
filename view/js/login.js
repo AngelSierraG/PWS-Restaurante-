@@ -10,34 +10,17 @@ Description: JS file. It provides support between frmlogin (view) and login (con
 var vwndwPasswordRecovery; //Object variable in order to reference the window password recovery
 var vcmdPasswordRecovery; //Object variable in order to reference the button password recovery
 
-function _default() //It loads the default parameters of the Web Page.
- {
-	//Display the menu of the web page, establishing the current web page as active
-	menu(1);
- }
 
 function login() //It logins a user into Web Page.
  {
-	if ( validateLoginFormFields() ){ //Are all the login form fields valid?
-		//Login a user into Web Page
-		xajax_login(xajax.getFormValues("vlogin"));
-	}
-	else{
-		//Show a message to user
-		alert("El logeo no puede ser realizado, no tiene los datos necesarios, complete los datos");
-	}
+	txtUser = document.getElementById("txtEmail").value;
+	txtPassword = document.getElementById("txtPassword").value;
+	sendMessagetoController(txtUser, txtPassword);
  }
  
 function passwordRecovery() //It recovers a password user into specified email by user.
  {
-	if ( validatePasswordRecoveryFormFields() ){ //Are all the password recovery form fields valid?
-		//Recover a password user into specified email by user
-		xajax_passwordRecovery(Trim(xajax.$("txtemail").value));
-	}
-	else{
-		//Show a message to user
-		alert("La recuperación de la contraseña no puede ser realizada, no tiene los datos necesarios, complete los datos");
-	}
+	
  }
  
 function openPasswordRecoveryWindow() //It opens a password recovery windows.
@@ -130,9 +113,9 @@ function validateLoginFormFields() //It validates a login form fields.
 	//Set validation as true
 	var vstatus=true; 
 	
-	if ( Trim(xajax.$("txtuser").value) == "" ){ //Is not user id (email) valid?
+	if ( Trim(xajax.$("txtEmail").value) == "" ){ //Is not user id (email) valid?
 		//Set focus to user id
-		xajax.$("txtuser").focus();
+		xajax.$("txtEmail").focus();
 		//Set validation as false
 		vstatus=false;
 	}
@@ -140,13 +123,13 @@ function validateLoginFormFields() //It validates a login form fields.
 		//Show a message to user
 		alert("El correo electrónico debe tener un formato válido");
 		//Set focus to user id
-		xajax.$("txtuser").focus();
+		xajax.$("txtEmail").focus();
 		//Set validation as false
 		vstatus=false;
 	}
-	else if ( Trim(xajax.$("txtpassword").value) == "" ){ //Not, is not user password valid?
+	else if ( Trim(xajax.$("txtPassword").value) == "" ){ //Not, is not user password valid?
 		//Set focus to user password
-		xajax.$("txtpassword").focus();
+		xajax.$("txtPassword").focus();
 		//Set validation as false
 		vstatus=false;
 	}
@@ -160,21 +143,44 @@ function validatePasswordRecoveryFormFields() //It validates a password recovery
 	//Set validation as true
 	vstatus=true;
 	
-	if ( Trim(xajax.$("txtemail").value) == "" ){ //Is not email recovery valid?
+	if ( Trim(xajax.$("txtEmail").value) == "" ){ //Is not email recovery valid?
 		//Set focus to email recovery
-		xajax.$("txtemail").focus();
+		xajax.$("txtEmail").focus();
 		//Set validation as false
 		vstatus=false;
 	}
-	else if ( ! isEmail(Trim(xajax.$("txtemail").value)) ){ //Is not email recovery valid format?
+	else if ( ! isEmail(Trim(xajax.$("txtEmail").value)) ){ //Is not email recovery valid format?
 		//Show a message to user.
 		alert("El correo electrónico, para recuperar la contraseña, debe tener un formato válido");
 		//Set focus to email recovery
-		xajax.$("txtemail").focus();
+		xajax.$("txtEmail").focus();
 		//Set validation as false
 		vstatus=false;
 	}
 	
 	//Return validation
 	return vstatus;
- }
+ 	}
+ 
+ 	function sendMessagetoController()
+	{
+		 var httpAjax;
+                if (window.XMLHttpRequest){
+                    // code for IE7+, Firefox, Chrome, Opera, Safari
+                    httpAjax=new XMLHttpRequest();
+                }else{
+                    // code for IE6, IE5
+                    httpAjax=new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                httpAjax.onreadystatechange=function(){
+                    if (httpAjax.readyState==4 && httpAjax.status==200){
+                        document.getElementById("room").innerHTML=httpAjax.responseText;
+                    }
+                }
+                //send a request to a server
+                //var valor;
+                
+                httpAjax.open("GET","messageClient.jsp?user="+user+"&room="+room+"&message="+message+"&action=1",false);
+                httpAjax.send();  
+	}
+ 	

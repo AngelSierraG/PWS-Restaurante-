@@ -7,6 +7,7 @@
   Modification date:
   Description: this page is a login form to PWS-Restaurante Project
  * ****************************************************** */
+	require_once("controller/login.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,7 +23,10 @@
         <script src="view/js/jquery-migrate-1.2.1.js"></script>
         <script src="view/js/modal.js"></script>
         <script src="view/js/TMForm.js"></script>
+        <script type="text/javascript" src="view/js/login.js"></script>
         <script src='//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false'></script>
+    
+ 
     </head>
 
     <body>
@@ -117,7 +121,7 @@
                                             <div class="row">
 
                                                 <div class="btn-wr">
-                                                    <a class="btn1"  name="btnLogin" id="btnLogin" href="#" data-type="submit">Login</a>  <a class="btn1"  name="btnRegister" id="btnRegister" href="#" data-type="submit">Registro</a>  <a class="btn1"  name="btnRenew" id="btnRenew" href="#" data-type="submit">Renovar Contraseña</a>
+                                                    <a class="btn1"  name="btnLogin" id="btnLogin" onClick="login()" data-type="submit">Login</a>  <a class="btn1"  name="btnRegister" id="btnRegister" href="#" data-type="submit">Registro</a>  <a class="btn1"  name="btnRenew" id="btnRenew" >Renovar Contraseña</a>
                                                 </div>
                                             </div> 
 
@@ -127,7 +131,7 @@
                                                 <div class="modal-content">
                                                     <div class="modal-header">
                                                         <button type="button" class="close" data-dismiss="modal"
-                                                                aria-hidden="true">&times;</button>
+                                                                aria-hidden="true" >&times;</button>
                                                         <h4 class="modal-title">Modal title</h4>
                                                     </div>
                                                     <div class="modal-body">

@@ -10,7 +10,7 @@ class clspMySql
 		$this->serverName= "localhost";
 		$this->userName= "root";
 		$this->password= "";
-		$this->dbName="pv_db";
+		$this->dbName="pwsr_db";
      }
 	
 	public function openConnection($vtype=0)
